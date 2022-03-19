@@ -16,14 +16,19 @@
 ## Shortly about myself:
 I work as a process engineer. I have a secondary special and higher engineering education, I am technically advanced, I have "straight hands". I am always doing something, I'm evolving, and learning, I don’t like to waste time.
 
-
-
 ## Skills:
 * HTML5, CCS3
 * Git/GitHub
 * JavaScript (first level)
 * Adobe Photoshop, Adobe Lightroom Classic
 
+```
+ 
+## Courses and education:
+* Borisov State Polytechnic College
+* Belarusian National Technical University
+* JS course on learn.javascript.ru (still in progress).
+* JS / Front-End course on RS School (still in progress).
 
 ## Code example:
 ```
@@ -36,15 +41,8 @@ function sumArray(array) {
   return sum
 }
 ```
-
-## Courses and education:
-* Borisov State Polytechnic College
-* Belarusian National Technical University
-* JS course on learn.javascript.ru (still in progress).
-* JS / Front-End course on RS School (still in progress).
-
 ## Languages:
-**English**: A2 - B1.
+**English**: A2 (B1 in process…)
 
 **Russian**: Native.
 ******
