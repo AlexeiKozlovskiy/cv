@@ -2,7 +2,7 @@
 # Alexei Kozlovskiy
 
 ## My Contact Info:
-**Phone:** +375(29) 507-35-86
+**Phone:** +375(29)5073586
 
 **GitHub:** [AlexeiKozlovskiy](https://github.com/AlexeiKozlovskiy)
 
@@ -10,7 +10,7 @@
 
 **Discord:** [FlexLex#6871](https://discord.gg/agQF4ZPX)
 
-**Telegram** [@Rubi\_Rod](https://t.me/@Rubi_Rod)
+**Telegram:** [@Rubi\_Rod](https://t.me/@Rubi_Rod)
 
 
 ## Shortly about myself:
