@@ -12,6 +12,8 @@
 
 **Telegram:** [@Rubi\_Rod](https://t.me/@Rubi_Rod)
 
+**Vk:** [Алексей Козловский](https://vk.com/lehakozlovsky)
+
 
 ## Shortly about myself:
 I work as a process engineer. I have a secondary special and higher engineering education, I am technically advanced, I have "straight hands". I am always doing something, I'm evolving, and learning, I don’t like to waste time.
