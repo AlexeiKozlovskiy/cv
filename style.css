@@ -221,7 +221,7 @@ a,
     text-decoration: none;
 }
 
-.education__link:visited {
+.education__link:visited, .education__link:link {
    color: #000;
 }
 .education__link:hover {
