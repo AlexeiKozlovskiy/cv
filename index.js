@@ -5,6 +5,7 @@ const navMenuList = document.querySelector('.header__nav')
 function navMenuToggle () {
     hamburger.classList.toggle('open')
     navMenuList.classList.toggle('open')
+    document.body.classList.toggle('lock');
 }
 
 burger.addEventListener('click', navMenuToggle)
