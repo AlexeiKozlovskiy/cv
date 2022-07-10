@@ -499,9 +499,10 @@ a,
 
     .page-title__main {
         font-size: 30px;
+        /* margin-top: 0px; */
     }
     .wrapper {
-        margin: 20px 15px 20px 30px;
+        margin: 20px 12px 20px 30px;
     }
 
 }
