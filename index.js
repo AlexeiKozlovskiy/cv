@@ -12,3 +12,5 @@ burger.addEventListener('click', navMenuToggle)
 navMenuList.addEventListener('click', function(event) {
     if(event.target.classList.contains('nav__link')) navMenuToggle()
 })
+
+
