@@ -26,14 +26,14 @@ ul, ol {
 }
 
 a,
-.hamburger_line,
+.hamburger-line,
 .hamburger.open,
 .hamburger.open .hamburger_line:nth-child(1),
 .hamburger.open .hamburger_line:nth-child(3),
-.my-project__page,
-.my-project__title,
-.my-project__title:after,
-.rsschool__logo {
+.my-project-page,
+.my-project-title,
+.my-project-title:after,
+.rsschool-logo {
     transition: all 0.3s ease 0s;
 }
 .main-container {
@@ -41,7 +41,7 @@ a,
     margin: 0 auto; 
 }
 
-.nav__items {
+.nav-items {
     background: linear-gradient(to left ,rgb(251, 212, 72),  rgb(20, 23, 55) 45%);
     display: flex;
     justify-content: space-around;
@@ -50,14 +50,14 @@ a,
     list-style-type: none;
 }
 
-.nav__item a {
+.nav-item a {
     font-size: 18px;
     padding: 14px 10px;
     color: #eee;
     text-decoration: none;
 }
 
-.nav__item a:hover {
+.nav-item a:hover {
     background:  rgb(255, 171, 36);
     color: #000;
 }
@@ -70,7 +70,7 @@ a,
     z-index: 50;
 }
 
-.hamburger_line {
+.hamburger-line {
     width: 50px;
     height: 3px;
     background-color: #000;
@@ -87,28 +87,35 @@ a,
     transform: rotate(45deg);
 }
 
-.hamburger.open .hamburger_line:nth-child(2) {
+.hamburger.open 
+.hamburger_line:nth-child(2) {
     width: 0;
 }
 
-.hamburger.open .hamburger_line:nth-child(1),
-.hamburger.open .hamburger_line:nth-child(3) {
+.hamburger.open 
+.hamburger-line:nth-child(1),
+.hamburger.open 
+.hamburger-line:nth-child(3) {
     transition-delay: 0.3s;
 }
 
-.hamburger.open .hamburger_line:nth-child(1) {
+.hamburger.open 
+.hamburger-line:nth-child(1) {
     transform: translateY(10px);
 }
 
-.hamburger.open .hamburger_line:nth-child(3) {
+.hamburger.open 
+.hamburger-line:nth-child(3) {
     transform: translateY(-13px) rotate(90deg);
 }
 
-.hamburger.open:hover .hamburger_line:nth-child(1) {
+.hamburger.open:hover 
+.hamburger-line:nth-child(1) {
     transform: translateY(10px) rotate(-10deg)
 }
 
-.hamburger.open:hover .hamburger_line:nth-child(3) {
+.hamburger.open:hover 
+.hamburger-line:nth-child(3) {
     transform: translateY(-13px) rotate(100deg)
 }
 
@@ -135,30 +142,30 @@ a,
     background-color: rgb(237, 237, 237);
 }
 
-.main__left-side {
+.main-left-side {
     display: flex;
     flex-direction: column;
     background: linear-gradient(to right ,rgba(0, 0, 0, 0.45) 10%, rgba(0, 0, 0, 0.83));
     color: #fff;
 }
 
-.main__center {
+.main-center {
     padding-left: 30px;
     background: linear-gradient(45deg , rgb(20, 23, 55), rgba(0, 0, 0, 1) 70%,  rgb(20, 23, 55)); 
 }
 
-.left-side__avatar-block {
+.left-side-avatar-block {
     width: 300px;
     height: 380px;
 }
 
-.left-side__avatar {
+.left-side-avatar {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.contacts-list{
+.contacts-list {
     list-style-type: none;
     margin: 25px 0px 25px 0px;
 } 
@@ -169,7 +176,7 @@ a,
     text-decoration: none;
 }
 
-.contact-item__img {
+.contact-item-img {
     width: 20px;
     height: 20px;
     margin: 0px 10px 0px 20px;
@@ -184,16 +191,16 @@ a,
     filter: invert(100%); 
 }
 
-.education__item {
+.education-item {
     border-bottom: 1px solid #fff;
     margin-top: 10px;
 }
 
-.education__item:last-child {
+.education-item:last-child {
     border-bottom: none;
 }
 
-.education__item-date {
+.education-item-date {
     background-color: #C0C0C0;
     display: inline-block;
     margin: 8px;
@@ -203,31 +210,33 @@ a,
     font-size: 18px;
 }
 
-.education__item-course {
+.education-item-course {
     width: 90%;
     margin: 0 auto 16px auto;
     font-size: 15px;
 }
 
-.education__profession {    
+.education-profession {
     font-style: italic;
     font-weight: 600;
     color: #D2B48C;
 }
 
-.education__status {
+.education-status {
     font-style: italic;
     color: #C0C0C0;
 }
 
-.education__link {
+.education-link {
     text-decoration: none;
 }
 
-.education__link:visited, .education__link:link {
+.education-link:visited, 
+.education-link:link {
    color: #000;
 }
-.education__link:hover {
+
+.education-link:hover {
     color: #fff;
 }
 
@@ -238,36 +247,36 @@ a,
     height: 300px;
 }
 
-.page-title__main {
+.page-title-main {
     font-size: 50px;
     font-weight: 600;
     margin-bottom: 35px;
 }
 
-.page-title__subtitle {
+.page-title-subtitle {
     font-size: 20px;
 }
 
-.right-side__avatar-block {
+.right-side-avatar-block {
     display: none;
 }
 
-.about-me__text {
+.about-me-text {
     text-indent: 30px;
     text-align: justify;
     line-height: 25px;
 }
 
-.skills__list {
+.skills-list {
     list-style: disc;
     padding-left: 15px;
 }
 
-.skill__item {
+.skill-item {
     margin-bottom: 5px;
 }
 
-.my-projects__list {
+.my-projects-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -275,16 +284,16 @@ a,
     gap: 25px;
 }
 
-.my-project__link {
+.my-project-link {
     text-decoration: none;
 }
 
-.my-project__item {
+.my-project-item {
     width: 46%;
     height: 100%;
 }
 
-.my-project__page {
+.my-project-page {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -292,31 +301,35 @@ a,
     margin-bottom: 15px;
 }
 
-.my-project__title {
+.my-project-title {
     font-size: 20px;
     color: #000;
     position: relative;
     padding-bottom: 15px;
 }
 
-.my-project__item:hover .my-project__page {
+.my-project-item:hover 
+.my-project-page {
     box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.17);
 }
 
-.my-project__item:hover .my-project__title {
+.my-project-item:hover 
+.my-project-title {
     text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.35);
 }
 
-.languages__list, .hobbis__list {
+.languages-list, 
+.hobbis-list {
     list-style: disc;
     padding-left: 15px;
 }
 
-.language__item, .hobbis__item {
+.language-item, 
+.hobbis-item {
     margin-bottom: 5px;
 }
 
-.footer__container {
+.footer-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -326,7 +339,7 @@ a,
     height: 70px;
 }
 
-.github__link {
+.github-link {
     color: #fff;
     height: 32px;
     padding-left: 40px;
@@ -334,7 +347,7 @@ a,
     text-decoration: none;
 }
 
-.github__link::before {
+.github-link::before {
     position: absolute;
     content: "";
     left: 0;
@@ -348,24 +361,22 @@ a,
     filter: invert(100%)
 }
 
-.github__link:hover {
+.github-link:hover {
     filter: invert(45%)
 }
 
-.rsschool__logo {
+.rsschool-logo {
     height: 45px;
 }
-.rsschool__logo:hover {
+
+.rsschool-logo:hover {
     filter: invert(100%);
 }
-/* .nav__link::before {
-    margin-top: -50px;
-    padding-top: 70px;
-} */
+
 
 @media (max-width: 980px) {
 
-    .my-project__item {
+    .my-project-item {
         width: 100%;
     }
 }
@@ -378,14 +389,14 @@ a,
         z-index: 4;
     }
 
-    .header__burger {
+    .header-burger {
         position: relative;
         width: 100%;
         background-color: rgb(251, 212, 72);
         z-index: 5;
     }
 
-    .header__nav {
+    .header-nav {
         width: 100%;
         height: 100%;
         position: fixed;
@@ -394,11 +405,11 @@ a,
         transition: all 0.4s ease 0s;
     }
   
-    .header__nav.open {
+    .header-nav.open {
         top: 60px;
     }
 
-    .nav__items {
+    .nav-items {
         flex-direction: column;
         justify-content: normal;
         align-items: flex-start;
@@ -407,13 +418,13 @@ a,
         background: rgb(20, 23, 55);
     }
 
-    .nav__item {
+    .nav-item {
         margin: 0;
         display: block;
         width: 100%;
     }
 
-    .nav__item a {
+    .nav-item a {
         display: block;
         font-size: 25px;
         width: 100%;
@@ -428,7 +439,7 @@ a,
         padding-top: 60px;
     }
 
-    .page-title__subtitle {
+    .page-title-subtitle {
         padding-bottom: 30px;
     }
 
@@ -436,17 +447,17 @@ a,
         padding-left: 35px;
     }
 
-    .left-side__avatar-block {
+    .left-side-avatar-block {
         display: none;
     }
 
-    .left-side__education {
+    .left-side-education {
         order: -1;
         margin-bottom: 10px;
     }
 
-    .education__item-date,
-    .education__item-course {
+    .education-item-date,
+    .education-item-course {
         margin-left: 25px
     }
 
@@ -457,12 +468,13 @@ a,
     .contacts-item:hover {
         filter: none; 
     }
+
     .contact-item:hover {
         color: #a98f6e;
         text-decoration: underline;
 
     }
-    .education__link:hover {
+    .education-link:hover {
         color: #a98f6e;
         text-decoration: underline;
     }
@@ -471,44 +483,48 @@ a,
         height: 150px;
     }
 
-    .right-side__avatar-block {
+    .right-side-avatar-block {
         display: block;
         margin-bottom: 25px;
     }
 
-    .right-side__avatar {
+    .right-side-avatar {
         width: 100%;
     }
-    .footer__container {
+
+    .footer-container {
         background: rgb(20, 23, 55)
     }
+
     .section-title-left {
         background: linear-gradient(to left ,rgb(251, 212, 72), rgb(20, 23, 55) 60%);
     }
+
     .section-title {
         background: linear-gradient(to left ,rgb(251, 212, 72), rgb(20, 23, 55) 60%);
     }
-    .main__left-side {
+
+    .main-left-side {
         background: rgb(237, 237, 237);
     }
-    .rsschool__logo {
+
+    .rsschool-logo {
         filter: invert(100%);
     }
 }
 @media (max-width: 500px) {
 
-    .page-title__main {
+    .page-title-main {
         font-size: 30px;
-        /* margin-top: 0px; */
     }
     .wrapper {
         margin: 20px 12px 20px 30px;
     }
-
 }
+
 @media (max-width: 600px) {
 
-    .footer__container {
+    .footer-container {
         padding-top: 10px;
         height: 150px;
         flex-direction: column;
