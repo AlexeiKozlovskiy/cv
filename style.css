@@ -94,7 +94,7 @@ a,
 
 .hamburger.open 
 .hamburger-line:nth-child(1),
-.hamburger.open 
+.hamburger.open
 .hamburger-line:nth-child(3) {
     transition-delay: 0.3s;
 }
