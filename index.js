@@ -21,4 +21,3 @@ navMenuList.addEventListener('click', function(event) {
     if(event.target.classList.contains('nav-link')) navMenuToggleRemove ()
 })
 
-
