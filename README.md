@@ -1,1 +1,1 @@
-https://alexeikozlovskiy.github.io/cv/
+https://alexei-kozlovskiy-cv.netlify.app/
